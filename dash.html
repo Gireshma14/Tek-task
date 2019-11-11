@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <title>
+        SDET Code Examination
+    </title>
+    
+    <script type="text/javascript" src="main.js"></script>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <!-- CSS Files -->
+    <link href="./assets/css/argon-dashboard.css?v=1.1.0" rel="stylesheet" />
+
+</head>
+
+<body class="">
+
+    <div class="main-content">
+        <!-- Header -->
+        <div class="header bg-gradient-primary pb-8 pt-5 pt-md-8">
+            <div class="container-fluid">
+                <div class="header-body">
+                    <div class="welcome-heading">
+                        <h2>SDET Code Examination</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mt--7">
+          <div class="row mt-5">
+              <div class="col-xl mb-5 mb-xl-0">
+                  <div class="card shadow">
+                      <div class="card-header border-0">
+                          <div class="row align-items-center">
+                              <div class="col">
+                                  <h3 class="mb-0">Tasks</h3>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-md-4">
+                              </div>
+                          </div>
+
+                          <div class="col-md-4">
+
+                                        <form id= "data_Form" action="" onsubmit="return getData(this)">
+                                            <div class="form-group mb-3">
+                                                <div class="input-group input-group-merge input-group-alternative">
+                                                    <input class="form-control" placeholder="Country Code or Name" type="text" name="cname" required>
+                                                </div>
+                                            </div>
+                                        <div class="text-center">
+                                          <button  class="btn btn-block btn-default" data-toggle="modal" data-target="#modal-api-result">Get Details</button>
+                                      </div>
+                                      </form>
+                                      <div class="modal fade" id="modal-api-result" tabindex="-1" role="dialog" aria-labelledby="modal-api-result" aria-hidden="true">
+                                            <div class="modal-dialog modal- modal-dialog-centered modal-sm" role="document">
+                                                <div class="modal-content">
+                                                  <!-- <div class="modal-header" id="country_name_header">
+
+                                                  </div> -->
+                                                    <div class="modal-body p-0">
+          
+                                                        <div class="card bg-secondary border-0 mb-0">
+          
+                                                            <div class="card-body px-lg-5 py-lg-5">
+                                                            
+                                                              <div class="col" id="result-insert-data">
+          
+                                                              </div>
+                                                              
+                                                              </div>
+                                                              
+                                                            </div>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Footer -->
+                </div>
+            </div>
+        <!--   Core   -->
+        <script src="./assets/js/plugins/jquery/dist/jquery.min.js"></script>
+        <script src="./assets/js/plugins/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <!--   Argon JS   -->
+        <script src="./assets/js/argon-dashboard.min.js?v=1.1.0"></script>
+
+</body>
+
+</html> 
